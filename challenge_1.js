@@ -9,3 +9,13 @@ let markBmi=calcBmi(markMass,markHeight);
 
 console.log("John's Bmi="+johnBmi);
 console.log("Mark's Bmi="+markBmi);
+
+if (johnBmi>markBmi){
+    console.log(`John's BMI is higher than Mark's!`);
+}else if (johnBmi<markBmi){
+    console.log(`Mark's BMI is highest than John's!`);
+}else{
+    console.log("Both have the same BMI");
+}
+
+console.log(`John has ${johnBmi} and Mark has ${markBmi}`)
